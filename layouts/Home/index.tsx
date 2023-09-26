@@ -4,7 +4,6 @@ import { type Framework, frameworks } from "@/constants/framework.constant";
 import Background from "@/components/background";
 import Footer from "@/components/footer";
 import Main from "@/components/main";
-
 export default function Home() {
   const [currentFramework, setCurrentFramework] = useState<Framework>(
     frameworks[0]

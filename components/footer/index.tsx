@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import FrameworkRotation from "../framework-rotation";
 import CountdownTimer from "../countdown-timer";
-
 export default function Footer({
   currentFramework,
 }: {

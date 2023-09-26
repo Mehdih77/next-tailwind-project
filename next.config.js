@@ -5,5 +5,4 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
   },
 };
-
 module.exports = nextConfig;

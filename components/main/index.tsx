@@ -2,7 +2,6 @@ import { cn } from "@/utils/cn";
 import { assets } from "@/constants/assets.constant";
 import { Framework } from "@/constants/framework.constant";
 import Image from "next/image";
-
 export default function Main({
   currentFramework,
 }: {

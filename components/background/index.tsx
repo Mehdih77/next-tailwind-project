@@ -1,4 +1,3 @@
-"use client";
 import { useEffect, useState } from "react";
 import { cn } from "@/utils/cn";
 export default function Background() {

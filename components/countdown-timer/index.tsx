@@ -2,7 +2,6 @@ import { countdown as countdownTime } from "@/utils/countdown";
 import { useState, useEffect } from "react";
 import { type Framework } from "@/constants/framework.constant";
 import TimeUnit from "../time-unit";
-
 export default function CountdownTimer({
   currentFramework,
 }: {

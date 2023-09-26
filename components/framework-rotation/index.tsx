@@ -2,7 +2,6 @@ import { assets } from "@/constants/assets.constant";
 import { type Framework, frameworks } from "@/constants/framework.constant";
 import { cn } from "@/utils/cn";
 import Image from "next/image";
-
 export default function FrameworkRotation({
   currentFramework,
 }: {
