@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { type Framework, frameworks } from "@/constants/framework.constant";
 import Background from "@/components/background";
-import Footer from "@/components/footer";
+import Footer from "@/components/footer/Footer";
 import Main from "@/components/main";
 export default function Home() {
   const [currentFramework, setCurrentFramework] = useState<Framework>(
