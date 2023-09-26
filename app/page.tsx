@@ -1,8 +1,9 @@
 "use client";
-import Image from "next/image";
+import { useState, useEffect } from "react";
 import { assets } from "@/constants/assets.constant";
 import { type Framework, frameworks } from "@/constants/framework.constant";
-import { useState, useEffect } from "react";
+import { cn } from "@/utils/cn";
+import Image from "next/image";
 
 export default function Home() {
   const [currentFramework, setCurrentFramework] = useState<Framework>(
