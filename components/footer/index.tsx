@@ -60,7 +60,7 @@ export default function Footer({
                     "bg-neutral-300": currentFramework === "desktop",
                   }
                 )}>
-                Go To Gthub
+                Go To Github
               </button>
             </Link>
           </div>
