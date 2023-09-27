@@ -7,6 +7,7 @@ export default function Background() {
   }, []);
   return (
     <div
+      data-testid="background"
       className={cn(
         "bg-black fixed inset-0 transition-opacity duration-[1500ms]",
         !showBackground ? "opacity-100" : "opacity-0"
