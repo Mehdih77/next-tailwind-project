@@ -2,6 +2,7 @@ import { assets } from "@/constants/assets.constant";
 import { type Framework, frameworks } from "@/constants/framework.constant";
 import { cn } from "@/utils/cn";
 import Image from "next/image";
+//? How can write test for this component !!!???
 export default function FrameworkRotation({
   currentFramework,
 }: {

@@ -10,6 +10,7 @@ export default function Main({
   return (
     <>
       <div
+        data-testid="main-light"
         className={cn(
           "fixed inset-0 transition-colors delay-100 duration-700 opacity-25",
           {
