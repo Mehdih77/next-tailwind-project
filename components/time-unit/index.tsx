@@ -1,13 +1,12 @@
 import { Framework } from "@/constants/framework.constant";
 import { cn } from "@/utils/cn";
-import React from "react";
 import NumberRotation from "../number-rotation";
 export default function TimeUnit({
   label,
   value,
   currentFramework,
 }: {
-  label: string;
+  label: "DAYS" | "HOURS" | "MINUTES" | "SECONDS";
   value: number;
   currentFramework: Framework;
 }) {
@@ -17,6 +16,7 @@ export default function TimeUnit({
         <NumberRotation number={value} />
       </div>
       <div
+        data-testid="timeunit-label"
         className={cn("text-[8px] font-medium", {
           "text-purple-300": currentFramework === "qwik",
           "text-sky-300": currentFramework === "safari",
